@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="HeaderNotCollectionReusableView" customModule="customNo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="551" height="275"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TU3-K2-X0N">
+                    <rect key="frame" x="0.0" y="0.0" width="551" height="275"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today  -  10 June, 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="973-ZC-J1y">
+                            <rect key="frame" x="24" y="250.5" width="133.5" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.46666666670000001" green="0.47843137250000001" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="973-ZC-J1y" secondAttribute="bottom" constant="10" id="Y2D-V0-LUI"/>
+                        <constraint firstItem="973-ZC-J1y" firstAttribute="leading" secondItem="TU3-K2-X0N" secondAttribute="leading" constant="24" id="rxG-Y8-xDe"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <constraints>
+                <constraint firstItem="TU3-K2-X0N" firstAttribute="trailing" secondItem="VXr-Tz-HHm" secondAttribute="trailing" id="AaF-1U-7jD"/>
+                <constraint firstAttribute="bottom" secondItem="TU3-K2-X0N" secondAttribute="bottom" id="CJL-y2-w47"/>
+                <constraint firstItem="TU3-K2-X0N" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="Pg1-I4-UFQ"/>
+                <constraint firstItem="TU3-K2-X0N" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="bu3-rr-nvc"/>
+            </constraints>
+            <connections>
+                <outlet property="titleHeaderLabel" destination="973-ZC-J1y" id="gNr-8D-1Aw"/>
+            </connections>
+            <point key="canvasLocation" x="299.27536231884062" y="197.87946428571428"/>
+        </collectionReusableView>
+    </objects>
+</document>
