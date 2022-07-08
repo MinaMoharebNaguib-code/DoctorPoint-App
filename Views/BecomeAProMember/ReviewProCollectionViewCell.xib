@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ReviewProCollectionViewCell" customModule="DoctorPoint" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="96"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="96"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eNS-OF-dbH">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="96"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_test" translatesAutoresizingMaskIntoConstraints="NO" id="ju0-8m-icO">
+                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="FHD-Oh-Z0s"/>
+                                    <constraint firstAttribute="width" secondItem="ju0-8m-icO" secondAttribute="height" multiplier="1:1" id="g0y-zA-emX"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rTP-HL-9N6">
+                                <rect key="frame" x="76" y="0.0" width="115" height="15"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="zVw-iK-zel">
+                                        <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="2x8-R8-9VL"/>
+                                            <constraint firstAttribute="width" secondItem="zVw-iK-zel" secondAttribute="height" multiplier="1:1" id="uj2-VG-PBk"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="Lgg-L2-fjf">
+                                        <rect key="frame" x="25" y="0.0" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="Evp-gk-ry7"/>
+                                            <constraint firstAttribute="width" secondItem="Lgg-L2-fjf" secondAttribute="height" multiplier="1:1" id="Fwu-Iz-RcE"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="eNS-YU-tgl">
+                                        <rect key="frame" x="50" y="0.0" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="nRy-2v-5KJ"/>
+                                            <constraint firstAttribute="width" secondItem="eNS-YU-tgl" secondAttribute="height" multiplier="1:1" id="pXs-rn-Ent"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="Tcr-Of-dJx">
+                                        <rect key="frame" x="75" y="0.0" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="Tgb-r0-eef"/>
+                                            <constraint firstAttribute="width" secondItem="Tcr-Of-dJx" secondAttribute="height" multiplier="1:1" id="W02-LS-ATi"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="eog-ne-Uif">
+                                        <rect key="frame" x="100" y="0.0" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="eog-ne-Uif" secondAttribute="height" multiplier="1:1" id="DzT-GM-Zzs"/>
+                                            <constraint firstAttribute="width" constant="15" id="GLQ-Cc-sBe"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="eNS-YU-tgl" firstAttribute="width" secondItem="eNS-YU-tgl" secondAttribute="height" multiplier="1:1" id="70t-HF-kI8"/>
+                                    <constraint firstItem="Lgg-L2-fjf" firstAttribute="width" secondItem="Lgg-L2-fjf" secondAttribute="height" multiplier="1:1" id="HuD-jz-aZj"/>
+                                    <constraint firstItem="Tcr-Of-dJx" firstAttribute="width" secondItem="Tcr-Of-dJx" secondAttribute="height" multiplier="1:1" id="W8D-Qy-z5A"/>
+                                    <constraint firstItem="eog-ne-Uif" firstAttribute="width" secondItem="eog-ne-Uif" secondAttribute="height" multiplier="1:1" id="xIC-nl-2kf"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Used it for 1 month only. The way it is displayed and the way information is given is very good." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dd-HP-it5">
+                                <rect key="frame" x="76" y="25" width="324" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.46666666666666667" green="0.47843137254901957" blue="0.58431372549019611" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2dd-HP-it5" secondAttribute="trailing" id="8gQ-Ea-Wba"/>
+                            <constraint firstItem="2dd-HP-it5" firstAttribute="leading" secondItem="ju0-8m-icO" secondAttribute="trailing" constant="16" id="I9N-iq-L2W"/>
+                            <constraint firstItem="ju0-8m-icO" firstAttribute="top" secondItem="eNS-OF-dbH" secondAttribute="top" id="IKg-O5-Hdb"/>
+                            <constraint firstItem="ju0-8m-icO" firstAttribute="leading" secondItem="eNS-OF-dbH" secondAttribute="leading" id="SaN-4Y-Gfp"/>
+                            <constraint firstItem="2dd-HP-it5" firstAttribute="top" secondItem="rTP-HL-9N6" secondAttribute="bottom" constant="10" id="Zeu-Jr-dEi"/>
+                            <constraint firstItem="rTP-HL-9N6" firstAttribute="top" secondItem="eNS-OF-dbH" secondAttribute="top" id="b5T-48-OEL"/>
+                            <constraint firstItem="rTP-HL-9N6" firstAttribute="leading" secondItem="ju0-8m-icO" secondAttribute="trailing" constant="16" id="eZo-yA-2Os"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="eNS-OF-dbH" secondAttribute="trailing" id="B9n-qb-De5"/>
+                <constraint firstItem="eNS-OF-dbH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="N08-uO-pvB"/>
+                <constraint firstItem="eNS-OF-dbH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Oss-qE-BO7"/>
+                <constraint firstAttribute="bottom" secondItem="eNS-OF-dbH" secondAttribute="bottom" id="agb-Jj-WeV"/>
+            </constraints>
+            <size key="customSize" width="379" height="129"/>
+            <connections>
+                <outlet property="imageProfileReview" destination="ju0-8m-icO" id="QIv-Pg-ms0"/>
+                <outlet property="star1" destination="zVw-iK-zel" id="6bE-pR-zS3"/>
+                <outlet property="star2" destination="Lgg-L2-fjf" id="Yw1-1f-LSS"/>
+                <outlet property="star3" destination="eNS-YU-tgl" id="4bh-bX-mvP"/>
+                <outlet property="star4" destination="Tcr-Of-dJx" id="NwP-xw-jZW"/>
+                <outlet property="star5" destination="eog-ne-Uif" id="VsD-V5-yrj"/>
+            </connections>
+            <point key="canvasLocation" x="353.62318840579712" y="146.65178571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Image_test" width="80" height="80"/>
+        <image name="Star_Icon" width="16" height="15"/>
+    </resources>
+</document>
